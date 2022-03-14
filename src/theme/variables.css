@@ -241,8 +241,12 @@ http://ionicframework.com/docs/theming/ */
   color: white;
 }
 .table ion-row:nth-child(even) {
-  background: #F3AA4E;
+  background: #6B8A82;
  }
 .table ion-row:nth-child(odd) {
   background: FFF;
+ }
+ .table ion-row:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
  }
